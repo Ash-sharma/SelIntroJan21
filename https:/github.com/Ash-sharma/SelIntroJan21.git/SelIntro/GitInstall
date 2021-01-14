@@ -10,7 +10,6 @@ Enter username and password of github -- > Finish
 GitHub -  repository tool 
  Commit the code - saving the cahnges which i made in my code
  Push the code - pushing the actul code in the repository 
- Pull the code 
- merge
+ Pull the code - to update your local code repositry with chnages made by other team members
+ merge - you can review you code with the respositories and select which one to keep 
  
- abcc
