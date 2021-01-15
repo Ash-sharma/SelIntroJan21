@@ -1,5 +1,10 @@
 POM.xml  - comes thorugh maven  - Project of module
 POM - selenium framework - Page object model
+Page object model - used in implementing the framewrok 
+1.divide all the Pages into different classes 
+2.keep your tests scripts in a sepratefolder from your Page Objects 
+3.Design of your page object - Keep all the locators on the top of the page
+
 
 
 IMP FOr framework 
