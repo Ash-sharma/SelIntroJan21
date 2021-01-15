@@ -1,0 +1,7 @@
+ Automation Framework 
+ 1. Central repository - github, bitbucket, gitlab
+ 2. Maven - dependency management tool  (download all depenecies into your project)
+ 3. Selenium webdriver with JAva/python - to implement the POM 
+ 4. testNG - Run your tests 
+
+
