@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+	<test name = "Test1">
+	 <groups>
+	<run>
+	<include name = "group1"/>
+	<include name = "group2"/>
+	<!-- <exclude name = "group3"/> -->
+	</run>
+	</groups> 
+		<classes>
+			<!--  <class name = "p1.C1"/> -->
+			<!--  <class name = "p1.C2"/> -->
+			<class name = "p1.AnnotationsIntro"/>
+			<class name = "p1.GroupsIntro"/>
+		</classes>
+	</test>
+
+	<!-- <test name = "Test2">
+		<classes>
+			<class name = "p1.C1"/>
+			<class name = "p1.AnnotationsIntro"/>
+		</classes>
+	</test> -->
+
+  <!-- <test thread-count="5" name="Test">
     <classes>
       <class name="p1.C1">
       <methods>
@@ -15,5 +38,5 @@
       </class>
       
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
 </suite> <!-- Suite -->

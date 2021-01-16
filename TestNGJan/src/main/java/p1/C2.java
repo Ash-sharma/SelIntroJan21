@@ -1,5 +1,7 @@
 package p1;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class C2 {
@@ -21,4 +23,12 @@ public class C2 {
 		public void m4() {
 			System.out.println("mthod 4");
 		}
+//		@BeforeClass
+//		public void m23() {
+//			System.out.println("I run before your class");
+//		}
+//		@AfterClass
+//		public void m24() {
+//			System.out.println("I run after your class");
+//		}
 }
