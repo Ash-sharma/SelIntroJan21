@@ -26,12 +26,12 @@ public class GroupsIntro {
 	public void e() {
 		System.out.println("ok");
 	} 
-	@BeforeGroups("group2")
+	@BeforeGroups(groups = {"group2"})
 	public void m27()
 	{System.out.println("before group2 executed");}
 	
-	@AfterGroups("group2")
+	@AfterGroups(groups = {"group2"})
 	public void m28()
-	{System.out.println("before group2 executed");}
+	{System.out.println("after group2 executed");}
 	
 }

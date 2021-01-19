@@ -45,9 +45,9 @@ public class AnnotationsIntro {
 	public void a() {
 		System.out.println("methoda a in annotation class");
 	}
-	@Test
+	@Test(groups = {"group2"})
 	public void b() {
-		System.out.println("methoda a in annotation class");
+		System.out.println("methoda b in annotation class");
 	}
 	
 	@BeforeMethod
@@ -60,11 +60,11 @@ public class AnnotationsIntro {
 	{
 		System.out.println("I run after each method");
 	}
-	@BeforeGroups ("group1")
+	@BeforeGroups (groups = {"group1"})
 	public void m27()
 	{System.out.println("before group executed");}
 	
-	@AfterGroups ("group1")
+	@AfterGroups (groups = {"group1"})
 	public void m28()
 	{System.out.println("after group executed");}
 } 
