@@ -1,0 +1,39 @@
+Lists 
+ -  Arraylist
+ - Linked list
+ 
+ Difference between list and set: list can contain duplicate elements while sets do not 
+ 
+Set
+ - HashSet 
+   : all elemnets are unqinue in hashset (you cannot sotre duplicste elements)
+   : can store null values to it
+   : they do not maintain the insertion order
+   : they sotre elements using the mechanism called hasing 
+ - Linked Hashset
+   : (you cannot sotre duplicste elements)
+   : can store null values to it
+   :they maintain the insertion order
+ - Tree set  
+   : (you cannot sotre duplicste elements)
+   : you cannot store null elements 
+   : maintains scending order 
+   
+Maps
+ - Hashmap
+   : key and value 
+   : all keys are unique 
+   : one null key but multiple null values 
+   : maintian no order 
+ - LinkedHasmap
+   : key and value 
+   : all keys are unique 
+   :one null key but multiple null values
+   : maintains insertion order
+ - Treemap
+   :key and value 
+   :all keys are unique 
+   :no null keys
+   :maintains scending order
+   
+ Iterator

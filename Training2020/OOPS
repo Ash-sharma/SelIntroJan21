@@ -1,0 +1,57 @@
+OOPs- 
+Inheritenece -  all the types and super keyword 
+Polymorphism - Overloading (Compile time polymorphism)and      overridding - 
+Encapsulation -  Package , Access modifiers , getters and setter 
+Abstraction -  abstract classes (limit abstraction) , Interface (100% abstraction)
+Interfaces - 
+Final keyword 
+
+Errors - 
+Compile time errors
+Runtime errors 
+
+Exceptions  -
+Exception handling -  try , catch, finally, throw, throws 
+
+
+Overloading							Overriding
+Within class							works with inheritance only
+Change parameters and datatypes 		parameters must be the same
+Compile time poly							runtime poly 
+
+Access modifiers 
+They decide the access of your class, methods and variables 
+				Within Class			within Package           outside package subclass only.     Outside package
+1. Public.               Y					Y		                                  Y                                                      Y
+2. Default.             Y                                  Y                                            N                                                       N 
+3. Protected          Y                  			Y                                           Y                                                       N 
+4. Private             Y                                  N                                          N                                                       N
+
+
+Abstract Class 									 Interface
+Abstract keyword is used							 Interface keyword is used
+Can contain abstract methods and non-abs methods	 only abstract methods
+Abstract keyword to define your abstract methods		 you don’t have to use any keyword
+Can have final, non-final, static and non static variable  static or final variables 
+Inheretnece is achieved using extends keyword		  implements keyword is used
+Multiple inheritance is not supported			         supports multiple inheritance 
+Members of abstract class can be private , protect.        All are public by default 
+
+
+Throw 											Throws
+Creating a new exception 						     declaring that there is an exception 
+They are used inside the method 					used what the signature of the method
+You can’t throw multiple exceptions				      declare multiple exceptions 
+
+
+
+Collections: framework that provides an architecture to store and manipulate the group of objects
+		    You can perform operations like - searching sorting insertion deletion etc
+    Framework contains  - java.util - Interfaces (Iterable) - collections - list  - array list , linked list, vectors stack
+												                      - queue - priority queue, duque , arrayDEQUE
+                      									                      - set - Hashset, LinkedHasSet, sorted set, treeSet
+                                                                                                             - maps - hash maps 
+
+Array list 						Linked list
+Slower 								faster
+Good Storing accessing                    used for manipulation 

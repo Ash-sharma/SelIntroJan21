@@ -1,0 +1,35 @@
+Web Services -  API (Application Programming Interface)
+Web  API  - 
+1. Server Side - consist of one or morepublicly exposed end pints 
+2. Client Side - interrface that helps to extend functionality within the a browser 
+
+
+WebServices 
+ 1. SOAP -  Not used a lot anymore -  Simple Object Access Protocol
+ XML , WSDL (Web services description language)
+ 2.RESTFUL Webservices - CUrretnly being used 
+   Resources  -  Request URLs
+   Request Verbs - Type of request GET, PUT, POST DELETE
+   Request Headers - query date , authorization credentaisl
+   Request Body -  Data sesnd in the request 
+   Response Body - Data which you receive through a webservice 
+   Response status codes - 200, 400 ,401
+   
+   
+   RestFul methods
+   GET - to get the details from the webservice 
+   PUT- This is to update to the database thorugh web services 
+   POST- This is to save new data in the database through webservices 
+   DELETE  - This is to remove 
+   
+   Rsponses in JSON foramt : which are easier to read 
+   
+   Rest principles  
+   1 Client and server cpmmunication (which really fast)
+   2. Stateless - ensures that all information is provided by the server 
+   3. Cache -  calient  - Cache - Server 
+   4. Uniiform Interface -  Well defined methods to work with you API"S
+   
+   
+   Cucumber -  BDD 
+    

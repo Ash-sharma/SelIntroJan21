@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
- <parameter name="x" value="10"/>
+ <parameter name="x" value="Deliver to"/>
 <parameter name="y" value="30"/>
 <parameter name="xx" value="20"/>
 <parameter name="yy" value="30"/>
@@ -20,7 +20,8 @@
 			<!-- <class name = "p1.AnnotationsIntro"/>
 			<class name = "p1.GroupsIntro"/> -->
 			<!-- <class name= "p1.ParametersIntro"/> -->
-			<class name= "p1.ParallelIntro"/>
+			<!-- <class name= "p1.ParallelIntro"/> -->
+			<class name = "p1.AssertsIntro"/>
 		</classes>
 	</test>
 

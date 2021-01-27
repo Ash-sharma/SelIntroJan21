@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="p1.DataProviderIntro">
+      <class name="p1.AssertsIntro">
         <methods>
-          <include name="sum"/>
+          <include name="checksoftAssert"/>
         </methods>
-      </class> <!-- p1.DataProviderIntro -->
+      </class> <!-- p1.AssertsIntro -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
